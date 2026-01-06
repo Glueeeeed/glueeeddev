@@ -18,6 +18,11 @@ return [
         'passwords' => env('AUTH_PASSWORD_BROKER', 'users'),
     ],
 
+    'aesKey' => [
+        'key' => env('AES_KEY'),
+        'iv' => env('AES_IV'),
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Authentication Guards
