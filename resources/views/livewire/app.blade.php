@@ -55,10 +55,6 @@
             <button wire:click="decryptData" class="gap-2 rounded-full bg-violet-600 px-6 py-3 text-base md:text-lg font-semibold text-white shadow-xl ring-2 ring-violet-300/50 hover:bg-violet-500 hover:scale-[1.02] transition-all">
                 Odszyfruj
             </button>
-        @else
-            <button wire:click="encryptData" class="gap-2 rounded-full bg-violet-600 px-6 py-3 text-base md:text-lg font-semibold text-white shadow-xl ring-2 ring-violet-300/50 hover:bg-violet-500 hover:scale-[1.02] transition-all">
-                Zaszyfruj
-            </button>
         @endif
     </div>
 
@@ -66,28 +62,28 @@
 
     <section>
         <div>
-            <h1 id="text1" class=" text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl  mt-[5%] font-800 text-center font-extrabold text-violet-600 tracking-wider drop-shadow-[0_0_10px_#a78bfa] drop-shadow-[0_0_25px_#a78bfa]  drop-shadow-[0_0_60px_#7c3aed] animate-glow-pulse">
+            <h1 id="text1" class=" wrap-break-word text-8xl max-xl:text-7xl max-lg:text-6xl max-md:text-5xl  mt-[5%] font-800 text-center font-extrabold text-violet-600 tracking-wider drop-shadow-[0_0_10px_#a78bfa] drop-shadow-[0_0_25px_#a78bfa]  drop-shadow-[0_0_60px_#7c3aed] animate-glow-pulse">
                 {{$data['text1']}}
             </h1>
-            <p id="text2" class=" text-xl max-xl:text-lg max-lg:text-md max-md:text-sm max-sm:text-sm font-mono font-bold text-gray-300 text-center mt-8 "> // {{$data['text2']}} </p>
+            <p id="text2" class=" wrap-break-word text-xl max-xl:text-lg max-lg:text-md max-md:text-sm max-sm:text-sm font-mono font-bold text-gray-300 text-center mt-8 "> // {{$data['text2']}} </p>
         </div>
     </section>
     <section class="mt-[5%]">
         <div class=" text-5xl max-xl:text-4xl max-lg:text-4xl max-sm:text-3xl text-violet-600 font-bold flex justify-center space-x-6 ">
-            <h2  ><<div id="text3" class="text-white inline"> {{$data['text3']}} </div>/></h2>
+            <h2  ><<div  id="text3" class=" wrap-break-word text-white inline"> {{$data['text3']}} </div>/></h2>
         </div>
         <div class="max-w-3xl mx-auto mt-[3%] px-4">
             <div class="group  wrap-break-word relative rounded-2xl border border-violet-800/50 bg-gradient-to-b from-violet-900/30 to-indigo-900/10 p-6 md:p-8 shadow-lg shadow-violet-900/20 transition-all duration-300 hover:-translate-y-1 hover:border-violet-400/70 hover:shadow-2xl hover:shadow-violet-800/30">
                 <div class="absolute inset-0 rounded-2xl opacity-0 blur-xl transition-opacity duration-300 group-hover:opacity-30 bg-[radial-gradient(ellipse_at_top_right,theme(colors.violet.500/.35),transparent_50%),radial-gradient(ellipse_at_bottom_left,theme(colors.indigo.500/.35),transparent_50%)]"></div>
                 <div class="relative">
-                    <p  id="text4" class="text-violet-200/90 text-lg leading-relaxed font-mono">{{$data['text4']}}</p>
+                    <p  id="text4" class=" wrap-break-word text-violet-200/90 text-lg leading-relaxed font-mono">{{$data['text4']}}</p>
                 </div>
             </div>
         </div>
     </section>
     <section id="projects" >
         <div class=" text-5xl max-xl:text-4xl max-lg:text-4xl max-sm:text-3xl text-violet-600 font-bold flex justify-center space-x-6 mt-[5%] ">
-            <h2 >{ <div id="text5" class="text-white inline"> {{$data['text5']}} </div> }</h2>
+            <h2 >{ <div id="text5" class=" wrap-break-word  text-white inline"> {{$data['text5']}} </div> }</h2>
         </div>
         <div class=" mt-[3%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
 
