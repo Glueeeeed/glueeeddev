@@ -104,9 +104,6 @@
                     </div>
 
                     @if ($decrypted)
-                        <div>
-
-                        </div>
                         <div class="mt-6">
                             <a href="#" class="inline-flex items-center gap-2 rounded-lg bg-gray-600/90 px-4 py-2 text-sm font-semibold text-white transition hover:bg-gray-700/90">
                                 Wkrótce
