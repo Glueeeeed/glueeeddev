@@ -87,7 +87,7 @@
         <div class=" text-5xl max-xl:text-4xl max-lg:text-4xl max-sm:text-3xl text-violet-600 font-bold flex justify-center space-x-6 mt-[5%] ">
             <h2 >{ <div id="text5" class=" wrap-break-word  text-white inline"> {{$data['text5']}} </div> }</h2>
         </div>
-        <div class=" mt-[3%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
+        <div class="mt-[3%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 max-w-[90%] mx-auto px-4">
 
             <div  class="wrap-break-word group relative rounded-2xl border border-violet-800/50 bg-gradient-to-b from-violet-900/30 to-indigo-900/10 p-6 shadow-lg shadow-violet-900/20 transition-all duration-300 hover:-translate-y-1 hover:border-violet-400/70 hover:shadow-2xl hover:shadow-violet-800/30">
                 <div class="absolute inset-0 rounded-2xl opacity-0 blur-xl transition-opacity duration-300 group-hover:opacity-30 bg-[radial-gradient(ellipse_at_top_right,theme(colors.violet.500/.35),transparent_50%),radial-gradient(ellipse_at_bottom_left,theme(colors.indigo.500/.35),transparent_50%)]"></div>
@@ -132,7 +132,7 @@
 
                     @if ($decrypted)
                         <div class="mt-6">
-                            <a href="" class="inline-flex justify-center gap-2 rounded-lg bg-violet-900/90 px-4 py-2 text-sm font-semibold text-white transition hover:bg-violet-950/90">
+                            <a href="https://github.com/Glueeeeed/GlueCryptAuth"  target="_blank" class="inline-flex justify-center gap-2 rounded-lg bg-violet-900/90 px-4 py-2 text-sm font-semibold text-white transition hover:bg-violet-950/90">
                                 GitHub <span class="transition-transform group-hover:translate-x-0.5 "><svg  xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></svg></span>
                             </a>
                         </div>
@@ -155,7 +155,7 @@
                     </div>
                     @if ($decrypted)
                     <div class="mt-8">
-                        <a href="" class="inline-flex justify-center gap-2 rounded-lg bg-gray-600/90 px-4 py-2 text-sm font-semibold text-white transition hover:bg-gray-700/90">
+                        <a href="#" class="inline-flex justify-center gap-2 rounded-lg bg-gray-600/90 px-4 py-2 text-sm font-semibold text-white transition hover:bg-gray-700/90">
                             Wkrótce
                         </a>
                     </div>
@@ -179,8 +179,33 @@
                     </div>
                     @if ($decrypted)
                         <div class="mt-6">
-                            <a href="" class="inline-flex justify-center gap-2 rounded-lg bg-violet-900/90 px-4 py-2 text-sm font-semibold text-white transition hover:bg-violet-950/90">
+                            <a href="https://github.com/Glueeeeed/GlueNews" target="_blank" class="inline-flex justify-center gap-2 rounded-lg bg-violet-900/90 px-4 py-2 text-sm font-semibold text-white transition hover:bg-violet-950/90">
                                  GitHub <span class="transition-transform group-hover:translate-x-0.5 "><svg  xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></svg></span>
+                            </a>
+                        </div>
+                    @endif
+                </div>
+
+            </div>
+
+            <div class=" wrap-break-word group relative rounded-2xl border border-violet-800/50 bg-gradient-to-b from-violet-900/30 to-indigo-900/10 p-6 shadow-lg shadow-violet-900/20 transition-all duration-300 hover:-translate-y-1 hover:border-violet-400/70 hover:shadow-2xl hover:shadow-violet-800/30">
+                <div class="absolute inset-0 rounded-2xl opacity-0 blur-xl transition-opacity duration-300 group-hover:opacity-30 bg-[radial-gradient(ellipse_at_top_right,theme(colors.violet.500/.35),transparent_50%),radial-gradient(ellipse_at_bottom_left,theme(colors.indigo.500/.35),transparent_50%)]"></div>
+                <div class="relative flex h-full flex-col">
+                    <div class="mb-4 flex items-center justify-between">
+                        <span class="text-xs font-mono tracking-widest text-violet-300/80">{{$data['box5_Text1']}}</span>
+                    </div>
+                    <h3 id="box5_Text1" class="text-2xl font-semibold text-white">{{$data['box5_Text1']}}</h3>
+                    <p id="box5_Text2" class="mt-2 text-violet-200/90">{{$data['box5_Text2']}}</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span id="box5_Text3" class="rounded-full border border-violet-700/60 bg-violet-900/30 px-3 py-1 text-xs text-violet-200">{{$data['box5_Text3']}}</span>
+                        <span id="box5_Text4" class="rounded-full border border-violet-700/60 bg-violet-900/30 px-3 py-1 text-xs text-violet-200">{{$data['box5_Text4']}}</span>
+                        <span id="box5_Text5" class="rounded-full border border-violet-700/60 bg-violet-900/30 px-3 py-1 text-xs text-violet-200">{{$data['box5_Text5']}}</span>
+                        <span id="box5_Text6" class="rounded-full border border-violet-700/60 bg-violet-900/30 px-3 py-1 text-xs text-violet-200">{{$data['box5_Text6']}}</span>
+                    </div>
+                    @if ($decrypted)
+                        <div class="mt-6">
+                            <a href="https://github.com/Glueeeeed/GlueAuth" target="_blank" class="inline-flex justify-center gap-2 rounded-lg bg-violet-900/90 px-4 py-2 text-sm font-semibold text-white transition hover:bg-violet-950/90">
+                                GitHub <span class="transition-transform group-hover:translate-x-0.5 "><svg  xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></svg></span>
                             </a>
                         </div>
                     @endif

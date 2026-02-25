@@ -48,7 +48,7 @@ return [
         'box1_Text5' => 'TailwindCSS',
         'box2_Text1' => 'GlueCrypt_Auth',
         'box2_Text2' => 'System uwietrzytelniania oparty na podpisach kryptograficznych inspirowany',
-        'box2_Text3' => 'Dowodami Zerowej Wiedzy',
+        'box2_Text3' => 'Dowodami z Zerową Wiedzą.',
         'box2_Text4' => 'TypeScript',
         'box2_Text5' => 'JavaScript',
         'box2_Text6' => 'Express.js',
@@ -63,6 +63,12 @@ return [
         'box4_Text4' => 'Express.js',
         'box4_Text5' => 'TailwindCSS',
         'box4_Text6' => 'Socket.io',
+        'box5_Text1' => 'GlueAuth',
+        'box5_Text2' => 'System uwietrzytelniania oparty na Dowodach z Zerową Wiedzą.',
+        'box5_Text3' => 'TypeScript',
+        'box5_Text4' => 'Express.js',
+        'box5_Text5' => 'TailwindCSS',
+        'box5_Text6' => 'Semaphore Protocol',
     ]
 
 ];

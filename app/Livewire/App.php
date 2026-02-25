@@ -77,7 +77,8 @@ class App extends Component
             'box1_Text1', 'box1_Text2', 'box1_Text3', 'box1_Text4', 'box1_Text5',
             'box2_Text1', 'box2_Text2', 'box2_Text3', 'box2_Text4', 'box2_Text5', 'box2_Text6', 'box2_Text7',
             'box3_Text1', 'box3_Text2', 'box3_Text3', 'box3_Text4',
-            'box4_Text1', 'box4_Text2', 'box4_Text3', 'box4_Text4', 'box4_Text5', 'box4_Text6'
+            'box4_Text1', 'box4_Text2', 'box4_Text3', 'box4_Text4', 'box4_Text5', 'box4_Text6',
+            'box5_Text1', 'box5_Text2', 'box5_Text3', 'box5_Text4', 'box5_Text5', 'box5_Text6'
         ]);
 
 
